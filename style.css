@@ -1,0 +1,76 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.bg-container {
+    background-image: url('https://www.google.com/imgres?q=resume%20design%20background&imgurl=https%3A%2F%2Fi.pinimg.com%2F236x%2F8d%2F2e%2F03%2F8d2e0351c530f93217c09846ea5a82a3.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fsapurva823%2Fcv-format%2F&docid=Z7i_F7a_2-W09M&tbnid=UojwxTGwbab_WM&vet=12ahUKEwjThumerqaJAxW1TGwGHT9sEM0QM3oECFoQAA..i&w=236&h=333&hcb=2&ved=2ahUKEwjThumerqaJAxW1TGwGHT9sEM0QM3oECFoQAA');
+    background-size: cover;
+    background-position: center;
+}
+
+span {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 3em;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
